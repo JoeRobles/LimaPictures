@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4F766FB1B5448BA00EF13D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F766FA1B5448BA00EF13D3 /* AppDelegate.swift */; };
+		B4F766FD1B5448BA00EF13D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F766FC1B5448BA00EF13D3 /* ViewController.swift */; };
+		B4F767001B5448BA00EF13D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4F766FE1B5448BA00EF13D3 /* Main.storyboard */; };
+		B4F767021B5448BA00EF13D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4F767011B5448BA00EF13D3 /* Images.xcassets */; };
+		B4F767051B5448BA00EF13D3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4F767031B5448BA00EF13D3 /* LaunchScreen.xib */; };
+		B4F767111B5448BA00EF13D3 /* Nature_PortfolioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F767101B5448BA00EF13D3 /* Nature_PortfolioTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4F7670B1B5448BA00EF13D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4F766ED1B5448BA00EF13D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4F766F41B5448BA00EF13D3;
+			remoteInfo = "Nature Portfolio";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B4F766F51B5448BA00EF13D3 /* Nature Portfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nature Portfolio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4F766F91B5448BA00EF13D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4F766FA1B5448BA00EF13D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B4F766FC1B5448BA00EF13D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B4F766FF1B5448BA00EF13D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4F767011B5448BA00EF13D3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B4F767041B5448BA00EF13D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B4F7670A1B5448BA00EF13D3 /* Nature PortfolioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nature PortfolioTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4F7670F1B5448BA00EF13D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4F767101B5448BA00EF13D3 /* Nature_PortfolioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nature_PortfolioTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4F766F21B5448BA00EF13D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4F767071B5448BA00EF13D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4F766EC1B5448BA00EF13D3 = {
+			isa = PBXGroup;
+			children = (
+				B4F766F71B5448BA00EF13D3 /* Nature Portfolio */,
+				B4F7670D1B5448BA00EF13D3 /* Nature PortfolioTests */,
+				B4F766F61B5448BA00EF13D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4F766F61B5448BA00EF13D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4F766F51B5448BA00EF13D3 /* Nature Portfolio.app */,
+				B4F7670A1B5448BA00EF13D3 /* Nature PortfolioTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4F766F71B5448BA00EF13D3 /* Nature Portfolio */ = {
+			isa = PBXGroup;
+			children = (
+				B4F766FA1B5448BA00EF13D3 /* AppDelegate.swift */,
+				B4F766FC1B5448BA00EF13D3 /* ViewController.swift */,
+				B4F766FE1B5448BA00EF13D3 /* Main.storyboard */,
+				B4F767011B5448BA00EF13D3 /* Images.xcassets */,
+				B4F767031B5448BA00EF13D3 /* LaunchScreen.xib */,
+				B4F766F81B5448BA00EF13D3 /* Supporting Files */,
+			);
+			path = "Nature Portfolio";
+			sourceTree = "<group>";
+		};
+		B4F766F81B5448BA00EF13D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4F766F91B5448BA00EF13D3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B4F7670D1B5448BA00EF13D3 /* Nature PortfolioTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4F767101B5448BA00EF13D3 /* Nature_PortfolioTests.swift */,
+				B4F7670E1B5448BA00EF13D3 /* Supporting Files */,
+			);
+			path = "Nature PortfolioTests";
+			sourceTree = "<group>";
+		};
+		B4F7670E1B5448BA00EF13D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4F7670F1B5448BA00EF13D3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4F766F41B5448BA00EF13D3 /* Nature Portfolio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4F767141B5448BA00EF13D3 /* Build configuration list for PBXNativeTarget "Nature Portfolio" */;
+			buildPhases = (
+				B4F766F11B5448BA00EF13D3 /* Sources */,
+				B4F766F21B5448BA00EF13D3 /* Frameworks */,
+				B4F766F31B5448BA00EF13D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nature Portfolio";
+			productName = "Nature Portfolio";
+			productReference = B4F766F51B5448BA00EF13D3 /* Nature Portfolio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4F767091B5448BA00EF13D3 /* Nature PortfolioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4F767171B5448BA00EF13D3 /* Build configuration list for PBXNativeTarget "Nature PortfolioTests" */;
+			buildPhases = (
+				B4F767061B5448BA00EF13D3 /* Sources */,
+				B4F767071B5448BA00EF13D3 /* Frameworks */,
+				B4F767081B5448BA00EF13D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4F7670C1B5448BA00EF13D3 /* PBXTargetDependency */,
+			);
+			name = "Nature PortfolioTests";
+			productName = "Nature PortfolioTests";
+			productReference = B4F7670A1B5448BA00EF13D3 /* Nature PortfolioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4F766ED1B5448BA00EF13D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = CollDev;
+				TargetAttributes = {
+					B4F766F41B5448BA00EF13D3 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					B4F767091B5448BA00EF13D3 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = B4F766F41B5448BA00EF13D3;
+					};
+				};
+			};
+			buildConfigurationList = B4F766F01B5448BA00EF13D3 /* Build configuration list for PBXProject "Nature Portfolio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4F766EC1B5448BA00EF13D3;
+			productRefGroup = B4F766F61B5448BA00EF13D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4F766F41B5448BA00EF13D3 /* Nature Portfolio */,
+				B4F767091B5448BA00EF13D3 /* Nature PortfolioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4F766F31B5448BA00EF13D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4F767001B5448BA00EF13D3 /* Main.storyboard in Resources */,
+				B4F767051B5448BA00EF13D3 /* LaunchScreen.xib in Resources */,
+				B4F767021B5448BA00EF13D3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4F767081B5448BA00EF13D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4F766F11B5448BA00EF13D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4F766FD1B5448BA00EF13D3 /* ViewController.swift in Sources */,
+				B4F766FB1B5448BA00EF13D3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4F767061B5448BA00EF13D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4F767111B5448BA00EF13D3 /* Nature_PortfolioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4F7670C1B5448BA00EF13D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4F766F41B5448BA00EF13D3 /* Nature Portfolio */;
+			targetProxy = B4F7670B1B5448BA00EF13D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B4F766FE1B5448BA00EF13D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4F766FF1B5448BA00EF13D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B4F767031B5448BA00EF13D3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4F767041B5448BA00EF13D3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4F767121B5448BA00EF13D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B4F767131B5448BA00EF13D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4F767151B5448BA00EF13D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Nature Portfolio/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B4F767161B5448BA00EF13D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Nature Portfolio/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B4F767181B5448BA00EF13D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Nature PortfolioTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nature Portfolio.app/Nature Portfolio";
+			};
+			name = Debug;
+		};
+		B4F767191B5448BA00EF13D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Nature PortfolioTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nature Portfolio.app/Nature Portfolio";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4F766F01B5448BA00EF13D3 /* Build configuration list for PBXProject "Nature Portfolio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4F767121B5448BA00EF13D3 /* Debug */,
+				B4F767131B5448BA00EF13D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4F767141B5448BA00EF13D3 /* Build configuration list for PBXNativeTarget "Nature Portfolio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4F767151B5448BA00EF13D3 /* Debug */,
+				B4F767161B5448BA00EF13D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B4F767171B5448BA00EF13D3 /* Build configuration list for PBXNativeTarget "Nature PortfolioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4F767181B5448BA00EF13D3 /* Debug */,
+				B4F767191B5448BA00EF13D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4F766ED1B5448BA00EF13D3 /* Project object */;
+}
