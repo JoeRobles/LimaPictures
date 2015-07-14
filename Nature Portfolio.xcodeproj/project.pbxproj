@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4893F531B5569F4006F3D5A /* circuito-magico-del-agua.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4893F3F1B5569F4006F3D5A /* circuito-magico-del-agua.jpg */; };
+		B4893F541B5569F4006F3D5A /* circuito-magico-del-agua150.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4893F401B5569F4006F3D5A /* circuito-magico-del-agua150.jpg */; };
+		B4893F551B5569F4006F3D5A /* desamparados.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4893F411B5569F4006F3D5A /* desamparados.jpg */; };
+		B4893F561B5569F4006F3D5A /* desamparados150.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4893F421B5569F4006F3D5A /* desamparados150.jpg */; };
+		B4893F571B5569F4006F3D5A /* huascar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4893F431B5569F4006F3D5A /* huascar.jpg */; };
+		B4893F581B5569F4006F3D5A /* huascar150.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4893F441B5569F4006F3D5A /* huascar150.jpg */; };
+		B4893F591B5569F4006F3D5A /* lomas-de-lachay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4893F451B5569F4006F3D5A /* lomas-de-lachay.jpg */; };
+		B4893F5A1B5569F4006F3D5A /* lomas-de-lachay150.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4893F461B5569F4006F3D5A /* lomas-de-lachay150.jpg */; };
+		B4893F5B1B5569F4006F3D5A /* museo-metropolitano-de-lima.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4893F471B5569F4006F3D5A /* museo-metropolitano-de-lima.jpg */; };
+		B4893F5C1B5569F4006F3D5A /* museo-metropolitano-de-lima150.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4893F481B5569F4006F3D5A /* museo-metropolitano-de-lima150.jpg */; };
+		B4893F5D1B5569F4006F3D5A /* pantanos-de-villa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4893F491B5569F4006F3D5A /* pantanos-de-villa.jpg */; };
+		B4893F5E1B5569F4006F3D5A /* pantanos-de-villa150.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4893F4A1B5569F4006F3D5A /* pantanos-de-villa150.jpg */; };
+		B4893F5F1B5569F4006F3D5A /* parque-de-la-reserva.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4893F4B1B5569F4006F3D5A /* parque-de-la-reserva.jpg */; };
+		B4893F601B5569F4006F3D5A /* parque-de-la-reserva150.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4893F4C1B5569F4006F3D5A /* parque-de-la-reserva150.jpg */; };
+		B4893F611B5569F4006F3D5A /* parque-de-las-leyendas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4893F4D1B5569F4006F3D5A /* parque-de-las-leyendas.jpg */; };
+		B4893F621B5569F4006F3D5A /* parque-de-las-leyendas150.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4893F4E1B5569F4006F3D5A /* parque-de-las-leyendas150.jpg */; };
+		B4893F631B5569F4006F3D5A /* san-cristobal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4893F4F1B5569F4006F3D5A /* san-cristobal.jpg */; };
+		B4893F641B5569F4006F3D5A /* san-cristobal150.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4893F501B5569F4006F3D5A /* san-cristobal150.jpg */; };
+		B4893F651B5569F4006F3D5A /* san-isidro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4893F511B5569F4006F3D5A /* san-isidro.jpg */; };
+		B4893F661B5569F4006F3D5A /* san-isidro150.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4893F521B5569F4006F3D5A /* san-isidro150.jpg */; };
 		B4F766FB1B5448BA00EF13D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F766FA1B5448BA00EF13D3 /* AppDelegate.swift */; };
 		B4F766FD1B5448BA00EF13D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F766FC1B5448BA00EF13D3 /* ViewController.swift */; };
 		B4F767001B5448BA00EF13D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4F766FE1B5448BA00EF13D3 /* Main.storyboard */; };
@@ -26,6 +46,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B4893F3F1B5569F4006F3D5A /* circuito-magico-del-agua.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "circuito-magico-del-agua.jpg"; path = "../../../Desktop/circuito-magico-del-agua.jpg"; sourceTree = "<group>"; };
+		B4893F401B5569F4006F3D5A /* circuito-magico-del-agua150.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "circuito-magico-del-agua150.jpg"; path = "../../../Desktop/circuito-magico-del-agua150.jpg"; sourceTree = "<group>"; };
+		B4893F411B5569F4006F3D5A /* desamparados.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = desamparados.jpg; path = ../../../Desktop/desamparados.jpg; sourceTree = "<group>"; };
+		B4893F421B5569F4006F3D5A /* desamparados150.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = desamparados150.jpg; path = ../../../Desktop/desamparados150.jpg; sourceTree = "<group>"; };
+		B4893F431B5569F4006F3D5A /* huascar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = huascar.jpg; path = ../../../Desktop/huascar.jpg; sourceTree = "<group>"; };
+		B4893F441B5569F4006F3D5A /* huascar150.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = huascar150.jpg; path = ../../../Desktop/huascar150.jpg; sourceTree = "<group>"; };
+		B4893F451B5569F4006F3D5A /* lomas-de-lachay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "lomas-de-lachay.jpg"; path = "../../../Desktop/lomas-de-lachay.jpg"; sourceTree = "<group>"; };
+		B4893F461B5569F4006F3D5A /* lomas-de-lachay150.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "lomas-de-lachay150.jpg"; path = "../../../Desktop/lomas-de-lachay150.jpg"; sourceTree = "<group>"; };
+		B4893F471B5569F4006F3D5A /* museo-metropolitano-de-lima.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "museo-metropolitano-de-lima.jpg"; path = "../../../Desktop/museo-metropolitano-de-lima.jpg"; sourceTree = "<group>"; };
+		B4893F481B5569F4006F3D5A /* museo-metropolitano-de-lima150.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "museo-metropolitano-de-lima150.jpg"; path = "../../../Desktop/museo-metropolitano-de-lima150.jpg"; sourceTree = "<group>"; };
+		B4893F491B5569F4006F3D5A /* pantanos-de-villa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "pantanos-de-villa.jpg"; path = "../../../Desktop/pantanos-de-villa.jpg"; sourceTree = "<group>"; };
+		B4893F4A1B5569F4006F3D5A /* pantanos-de-villa150.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "pantanos-de-villa150.jpg"; path = "../../../Desktop/pantanos-de-villa150.jpg"; sourceTree = "<group>"; };
+		B4893F4B1B5569F4006F3D5A /* parque-de-la-reserva.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "parque-de-la-reserva.jpg"; path = "../../../Desktop/parque-de-la-reserva.jpg"; sourceTree = "<group>"; };
+		B4893F4C1B5569F4006F3D5A /* parque-de-la-reserva150.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "parque-de-la-reserva150.jpg"; path = "../../../Desktop/parque-de-la-reserva150.jpg"; sourceTree = "<group>"; };
+		B4893F4D1B5569F4006F3D5A /* parque-de-las-leyendas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "parque-de-las-leyendas.jpg"; path = "../../../Desktop/parque-de-las-leyendas.jpg"; sourceTree = "<group>"; };
+		B4893F4E1B5569F4006F3D5A /* parque-de-las-leyendas150.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "parque-de-las-leyendas150.jpg"; path = "../../../Desktop/parque-de-las-leyendas150.jpg"; sourceTree = "<group>"; };
+		B4893F4F1B5569F4006F3D5A /* san-cristobal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "san-cristobal.jpg"; path = "../../../Desktop/san-cristobal.jpg"; sourceTree = "<group>"; };
+		B4893F501B5569F4006F3D5A /* san-cristobal150.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "san-cristobal150.jpg"; path = "../../../Desktop/san-cristobal150.jpg"; sourceTree = "<group>"; };
+		B4893F511B5569F4006F3D5A /* san-isidro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "san-isidro.jpg"; path = "../../../Desktop/san-isidro.jpg"; sourceTree = "<group>"; };
+		B4893F521B5569F4006F3D5A /* san-isidro150.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "san-isidro150.jpg"; path = "../../../Desktop/san-isidro150.jpg"; sourceTree = "<group>"; };
 		B4F766F51B5448BA00EF13D3 /* Nature Portfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nature Portfolio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4F766F91B5448BA00EF13D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4F766FA1B5448BA00EF13D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +130,26 @@
 		B4F766F81B5448BA00EF13D3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B4893F3F1B5569F4006F3D5A /* circuito-magico-del-agua.jpg */,
+				B4893F401B5569F4006F3D5A /* circuito-magico-del-agua150.jpg */,
+				B4893F411B5569F4006F3D5A /* desamparados.jpg */,
+				B4893F421B5569F4006F3D5A /* desamparados150.jpg */,
+				B4893F431B5569F4006F3D5A /* huascar.jpg */,
+				B4893F441B5569F4006F3D5A /* huascar150.jpg */,
+				B4893F451B5569F4006F3D5A /* lomas-de-lachay.jpg */,
+				B4893F461B5569F4006F3D5A /* lomas-de-lachay150.jpg */,
+				B4893F471B5569F4006F3D5A /* museo-metropolitano-de-lima.jpg */,
+				B4893F481B5569F4006F3D5A /* museo-metropolitano-de-lima150.jpg */,
+				B4893F491B5569F4006F3D5A /* pantanos-de-villa.jpg */,
+				B4893F4A1B5569F4006F3D5A /* pantanos-de-villa150.jpg */,
+				B4893F4B1B5569F4006F3D5A /* parque-de-la-reserva.jpg */,
+				B4893F4C1B5569F4006F3D5A /* parque-de-la-reserva150.jpg */,
+				B4893F4D1B5569F4006F3D5A /* parque-de-las-leyendas.jpg */,
+				B4893F4E1B5569F4006F3D5A /* parque-de-las-leyendas150.jpg */,
+				B4893F4F1B5569F4006F3D5A /* san-cristobal.jpg */,
+				B4893F501B5569F4006F3D5A /* san-cristobal150.jpg */,
+				B4893F511B5569F4006F3D5A /* san-isidro.jpg */,
+				B4893F521B5569F4006F3D5A /* san-isidro150.jpg */,
 				B4F766F91B5448BA00EF13D3 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,8 +253,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4F767001B5448BA00EF13D3 /* Main.storyboard in Resources */,
+				B4893F661B5569F4006F3D5A /* san-isidro150.jpg in Resources */,
+				B4893F571B5569F4006F3D5A /* huascar.jpg in Resources */,
+				B4893F551B5569F4006F3D5A /* desamparados.jpg in Resources */,
+				B4893F5E1B5569F4006F3D5A /* pantanos-de-villa150.jpg in Resources */,
+				B4893F651B5569F4006F3D5A /* san-isidro.jpg in Resources */,
+				B4893F5D1B5569F4006F3D5A /* pantanos-de-villa.jpg in Resources */,
+				B4893F5B1B5569F4006F3D5A /* museo-metropolitano-de-lima.jpg in Resources */,
+				B4893F561B5569F4006F3D5A /* desamparados150.jpg in Resources */,
+				B4893F621B5569F4006F3D5A /* parque-de-las-leyendas150.jpg in Resources */,
+				B4893F541B5569F4006F3D5A /* circuito-magico-del-agua150.jpg in Resources */,
+				B4893F5A1B5569F4006F3D5A /* lomas-de-lachay150.jpg in Resources */,
+				B4893F641B5569F4006F3D5A /* san-cristobal150.jpg in Resources */,
+				B4893F631B5569F4006F3D5A /* san-cristobal.jpg in Resources */,
 				B4F767051B5448BA00EF13D3 /* LaunchScreen.xib in Resources */,
+				B4893F601B5569F4006F3D5A /* parque-de-la-reserva150.jpg in Resources */,
+				B4893F5F1B5569F4006F3D5A /* parque-de-la-reserva.jpg in Resources */,
 				B4F767021B5448BA00EF13D3 /* Images.xcassets in Resources */,
+				B4893F591B5569F4006F3D5A /* lomas-de-lachay.jpg in Resources */,
+				B4893F531B5569F4006F3D5A /* circuito-magico-del-agua.jpg in Resources */,
+				B4893F5C1B5569F4006F3D5A /* museo-metropolitano-de-lima150.jpg in Resources */,
+				B4893F611B5569F4006F3D5A /* parque-de-las-leyendas.jpg in Resources */,
+				B4893F581B5569F4006F3D5A /* huascar150.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +489,7 @@
 				B4F767161B5448BA00EF13D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B4F767171B5448BA00EF13D3 /* Build configuration list for PBXNativeTarget "Nature PortfolioTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +498,7 @@
 				B4F767191B5448BA00EF13D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

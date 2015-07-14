@@ -1,31 +1,565 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="J9Z-bA-DHP">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <!--Fotos-->
+        <scene sceneID="N95-d9-jSk">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Nature_Portfolio" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="POL-ZM-7fR">
-                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </tableView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <tableViewController id="1Lk-9X-LfH" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="37i-6K-ATw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="gLv-UH-vMw">
+                                <cells>
+                                    <tableViewCell tag="1" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Place1" textLabel="b6Y-T9-GV0" imageView="Cac-GL-XWN" style="IBUITableViewCellStyleDefault" id="Yms-7i-YUv">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="2" contentMode="center" tableViewCell="Yms-7i-YUv" id="eht-rT-ZdB">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Circuito Mágico del Agua" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="b6Y-T9-GV0">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="circuito-magico-del-agua150.jpg" id="Cac-GL-XWN">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <rect key="contentStretch" x="0.0" y="0.0" width="0.94999999999999996" height="1"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="p9O-VB-jGo" kind="push" identifier="Detail1" id="nfz-in-SDR"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell tag="1" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Place2" textLabel="Yto-Dk-vDE" imageView="vKR-dP-Jtv" style="IBUITableViewCellStyleDefault" id="Lmi-SZ-0e1">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="2" contentMode="center" tableViewCell="Lmi-SZ-0e1" id="0Pl-6L-T0o">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Estación Desamparados" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Yto-Dk-vDE">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="2" contentMode="scaleToFill" image="desamparados150.jpg" id="vKR-dP-Jtv">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Pee-Us-iak" kind="push" identifier="Detail2" id="vVs-PN-1hQ"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell tag="1" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Place3" textLabel="4fU-qb-esl" imageView="6lQ-P6-7ww" style="IBUITableViewCellStyleDefault" id="lyJ-83-rb6">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="2" contentMode="center" tableViewCell="lyJ-83-rb6" id="Zdf-uP-YpF">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Parque Zonal Huascar" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4fU-qb-esl">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="huascar150.jpg" id="6lQ-P6-7ww">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="XTn-hl-CPK" kind="push" identifier="Detail3" id="hU1-m6-etJ"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell tag="1" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Place4" textLabel="orI-Qx-CsU" imageView="jzr-e0-Kxc" style="IBUITableViewCellStyleDefault" id="LeZ-u4-M2X">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="2" contentMode="center" tableViewCell="LeZ-u4-M2X" id="CUv-3N-pCr">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Lomas de Lachay" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="orI-Qx-CsU">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="lomas-de-lachay150.jpg" id="jzr-e0-Kxc">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="PHb-d3-lgl" kind="push" identifier="Detail4" id="jar-eb-Q77"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell tag="1" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Place5" textLabel="Eyp-AU-eLp" imageView="Cu6-vO-Etz" style="IBUITableViewCellStyleDefault" id="KGG-jF-V9m">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="2" contentMode="center" tableViewCell="KGG-jF-V9m" id="UxQ-xI-kXd">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Museo Metropolitano de Lima" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Eyp-AU-eLp">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="museo-metropolitano-de-lima150.jpg" id="Cu6-vO-Etz">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Csv-vo-3qs" kind="push" identifier="Detail5" id="X8H-Dn-kqh"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell tag="1" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Place6" textLabel="x72-0s-j17" imageView="fhp-0q-hN3" style="IBUITableViewCellStyleDefault" id="waE-5e-dY9">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="2" contentMode="center" tableViewCell="waE-5e-dY9" id="EoC-n0-7Ok">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Pantanos de Villa" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="x72-0s-j17">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="pantanos-de-villa150.jpg" id="fhp-0q-hN3">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="ZLk-XV-Q9h" kind="push" identifier="Detail6" id="eFx-gO-aqx"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell tag="1" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Place7" textLabel="W6M-cB-0ba" imageView="jNe-Cc-A2b" style="IBUITableViewCellStyleDefault" id="QDp-6k-rNJ">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="2" contentMode="center" tableViewCell="QDp-6k-rNJ" id="BUN-TB-G1g">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Parque de la Reserva" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="W6M-cB-0ba">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="parque-de-la-reserva150.jpg" id="jNe-Cc-A2b">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="by2-Ke-l0d" kind="push" identifier="Detail7" id="lBX-u7-vfT"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell tag="1" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Place8" textLabel="J2k-nq-pEv" imageView="5O0-Kj-JJF" style="IBUITableViewCellStyleDefault" id="SiW-Ag-342">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="2" contentMode="center" tableViewCell="SiW-Ag-342" id="rRr-Ch-GLO">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" tag="1" contentMode="left" text="Parque de las Leyendas" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="J2k-nq-pEv">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="parque-de-las-leyendas150.jpg" id="5O0-Kj-JJF">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="2qL-Uh-cI7" kind="push" identifier="Detail8" id="aJy-Wu-7yW"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell tag="1" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Place9" textLabel="RQR-S5-WOH" imageView="RZR-oH-Kq0" style="IBUITableViewCellStyleDefault" id="X36-oB-DCc">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="2" contentMode="center" tableViewCell="X36-oB-DCc" id="CUE-aJ-ZEQ">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Cerro San Cristobal" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RQR-S5-WOH">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="san-cristobal150.jpg" id="RZR-oH-Kq0">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="hjf-vD-E1K" kind="push" identifier="Detail9" id="0se-kr-IRZ"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell tag="1" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Place10" textLabel="AXP-JX-YzY" imageView="mMJ-Kf-AmA" style="IBUITableViewCellStyleDefault" id="fDc-CJ-rUV">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="2" contentMode="center" tableViewCell="fDc-CJ-rUV" id="PhT-H7-0VN">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="San Isidro" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AXP-JX-YzY">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="2" contentMode="scaleToFill" image="san-isidro150.jpg" id="mMJ-Kf-AmA">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="bo2-Xh-ESD" kind="push" identifier="Detail10" id="5Je-Sa-2ut"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="1Lk-9X-LfH" id="vKN-4D-eUr"/>
+                            <outlet property="delegate" destination="1Lk-9X-LfH" id="5T6-rZ-wz5"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Fotos" id="Mmp-8f-DZ5"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fh6-2m-7LL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1240" y="-290"/>
+        </scene>
+        <!--Parque Zonal Huascar-->
+        <scene sceneID="Rts-BQ-u08">
+            <objects>
+                <viewController id="XTn-hl-CPK" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VJP-T6-wwQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="Hmt-1o-gEm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gjv-Y9-clM">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="huascar.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xPe-NL-u4d">
+                                <rect key="frame" x="0.0" y="64" width="320" height="214"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Parque Zonal Huascar" id="AMD-dH-hCJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ufS-ik-9dI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2640" y="-1142"/>
+        </scene>
+        <!--Museo Metropolitano de Lima-->
+        <scene sceneID="HE2-QY-n58">
+            <objects>
+                <viewController id="Csv-vo-3qs" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EIv-dJ-H2w"/>
+                        <viewControllerLayoutGuide type="bottom" id="fZ3-rJ-mHs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xEZ-dV-3qF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="museo-metropolitano-de-lima.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="aD1-6q-Mca">
+                                <rect key="frame" x="0.0" y="64" width="320" height="215"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Museo Metropolitano de Lima" id="qF7-Jl-sFu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Del-9h-BGF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2224" y="-290"/>
+        </scene>
+        <!--Estación Desamparados-->
+        <scene sceneID="rb5-t3-oQ9">
+            <objects>
+                <viewController id="Pee-Us-iak" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MtE-cs-xqq"/>
+                        <viewControllerLayoutGuide type="bottom" id="fhT-Gl-cfa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iec-cN-d9S">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="desamparados.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="kuY-kt-6ik">
+                                <rect key="frame" x="0.0" y="64" width="320" height="215"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Estación Desamparados" id="9JC-uw-hOX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i6l-XN-2aV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2224" y="-1142"/>
+        </scene>
+        <!--Pantanos de Villa-->
+        <scene sceneID="1d2-aE-YEp">
+            <objects>
+                <viewController id="ZLk-XV-Q9h" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6vp-hi-q6q"/>
+                        <viewControllerLayoutGuide type="bottom" id="4dI-eU-wXM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mVd-JK-0Jx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pantanos-de-villa.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="OKp-Ve-cGA">
+                                <rect key="frame" x="0.0" y="64" width="320" height="221"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Pantanos de Villa" id="nCh-YX-5WU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aJb-rQ-wEb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2640" y="-290"/>
+        </scene>
+        <!--San Isidro-->
+        <scene sceneID="kLs-8I-mcd">
+            <objects>
+                <viewController id="bo2-Xh-ESD" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3gT-iX-I80"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ai8-nx-cdx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uKI-V6-HW0">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="san-isidro.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="yQY-3b-wMl">
+                                <rect key="frame" x="0.0" y="64" width="320" height="215"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="San Isidro" id="Dbx-ky-Pw3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0eB-2v-sFe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2224" y="1163"/>
+        </scene>
+        <!--Parque de la Reserva-->
+        <scene sceneID="Gwf-tK-paH">
+            <objects>
+                <viewController id="by2-Ke-l0d" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zpC-OZ-lxu"/>
+                        <viewControllerLayoutGuide type="bottom" id="ian-YF-RHg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Thg-vh-0d4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="parque-de-la-reserva.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="7U9-g4-5yv">
+                                <rect key="frame" x="0.0" y="64" width="320" height="215"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Parque de la Reserva" id="rRn-Fn-Upy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fWI-OA-Po8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1814" y="487"/>
+        </scene>
+        <!--Cerro San Cristobal-->
+        <scene sceneID="Ozs-B9-60V">
+            <objects>
+                <viewController id="hjf-vD-E1K" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wjp-qf-Hja"/>
+                        <viewControllerLayoutGuide type="bottom" id="sws-jC-L2X"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nIX-zt-Ybc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="san-cristobal.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="VgD-4h-vUF">
+                                <rect key="frame" x="0.0" y="64" width="320" height="216"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Cerro San Cristobal" id="OiG-Jf-5l2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Da-lX-tVw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2640" y="487"/>
+        </scene>
+        <!--Lomas de Lachay-->
+        <scene sceneID="lGX-Ms-xAS">
+            <objects>
+                <viewController id="PHb-d3-lgl" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="liO-Mh-vTF"/>
+                        <viewControllerLayoutGuide type="bottom" id="G1j-Bp-eTy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WcO-CI-SWy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lomas-de-lachay.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="bJA-gh-Tec">
+                                <rect key="frame" x="0.0" y="64" width="320" height="217"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Lomas de Lachay" id="fU1-5S-Dpt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tat-at-lD0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1814" y="-290"/>
+        </scene>
+        <!--Parque de las Leyendas-->
+        <scene sceneID="cib-dU-DvK">
+            <objects>
+                <viewController id="2qL-Uh-cI7" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aG4-HG-C5T"/>
+                        <viewControllerLayoutGuide type="bottom" id="O8B-I9-bA1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="k3V-u9-WoB">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="parque-de-las-leyendas.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="esI-JZ-Sf2">
+                                <rect key="frame" x="0.0" y="64" width="320" height="214"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Parque de las Leyendas" id="aMR-Cz-nHA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dUk-01-aj1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2224" y="487"/>
+        </scene>
+        <!--Circuito Mágico del Agua-->
+        <scene sceneID="KeX-lx-q0m">
+            <objects>
+                <viewController id="p9O-VB-jGo" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eKH-qj-Hww"/>
+                        <viewControllerLayoutGuide type="bottom" id="kCt-1w-jjk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iKb-W1-jPO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circuito-magico-del-agua.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="gHc-DK-qza">
+                                <rect key="frame" x="0.0" y="64" width="320" height="155"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="http://maps.google.com enlace" translatesAutoresizingMaskIntoConstraints="NO" id="0BL-05-baX">
+                                <rect key="frame" x="16" y="227" width="288" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Circuito Mágico del Agua" id="iTA-4n-G4L"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dd0-kB-EoW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1814" y="-1142"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="gxH-vi-DY0">
+            <objects>
+                <viewController id="gSM-FA-xAe" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rhy-nY-Q3K"/>
+                        <viewControllerLayoutGuide type="bottom" id="qUD-ea-1bE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gha-Df-f3y">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" id="z2F-Pw-Qiq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="drt-JV-8dG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="735" y="-955"/>
+        </scene>
+        <!--Galeria-->
+        <scene sceneID="g9I-xI-pnV">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="EOB-k4-NxT" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Galeria" id="7FC-QA-S2Y"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="uCq-wB-ivg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="1Lk-9X-LfH" kind="relationship" relationship="rootViewController" id="Xfp-oY-egr"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QU6-GK-zZt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="735" y="-290"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="BxI-Fl-9ig">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="J9Z-bA-DHP" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="XD8-Fv-KMO">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="gSM-FA-xAe" kind="relationship" relationship="viewControllers" id="SUN-1F-EN9"/>
+                        <segue destination="EOB-k4-NxT" kind="relationship" relationship="viewControllers" id="z6l-LT-4bc"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eNb-bB-jPW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="187" y="-614"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="circuito-magico-del-agua.jpg" width="800" height="383"/>
+        <image name="circuito-magico-del-agua150.jpg" width="225" height="150"/>
+        <image name="desamparados.jpg" width="800" height="533"/>
+        <image name="desamparados150.jpg" width="225" height="150"/>
+        <image name="huascar.jpg" width="800" height="533"/>
+        <image name="huascar150.jpg" width="225" height="150"/>
+        <image name="lomas-de-lachay.jpg" width="800" height="533"/>
+        <image name="lomas-de-lachay150.jpg" width="225" height="150"/>
+        <image name="museo-metropolitano-de-lima.jpg" width="800" height="533"/>
+        <image name="museo-metropolitano-de-lima150.jpg" width="225" height="150"/>
+        <image name="pantanos-de-villa.jpg" width="800" height="533"/>
+        <image name="pantanos-de-villa150.jpg" width="225" height="150"/>
+        <image name="parque-de-la-reserva.jpg" width="800" height="533"/>
+        <image name="parque-de-la-reserva150.jpg" width="225" height="150"/>
+        <image name="parque-de-las-leyendas.jpg" width="800" height="533"/>
+        <image name="parque-de-las-leyendas150.jpg" width="225" height="150"/>
+        <image name="san-cristobal.jpg" width="800" height="533"/>
+        <image name="san-cristobal150.jpg" width="225" height="150"/>
+        <image name="san-isidro.jpg" width="800" height="533"/>
+        <image name="san-isidro150.jpg" width="225" height="150"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
 </document>
