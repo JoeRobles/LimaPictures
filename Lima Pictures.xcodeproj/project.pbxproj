@@ -33,7 +33,7 @@
 		B4F767001B5448BA00EF13D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4F766FE1B5448BA00EF13D3 /* Main.storyboard */; };
 		B4F767021B5448BA00EF13D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4F767011B5448BA00EF13D3 /* Images.xcassets */; };
 		B4F767051B5448BA00EF13D3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4F767031B5448BA00EF13D3 /* LaunchScreen.xib */; };
-		B4F767111B5448BA00EF13D3 /* Nature_PortfolioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F767101B5448BA00EF13D3 /* Nature_PortfolioTests.swift */; };
+		B4F767111B5448BA00EF13D3 /* Lima PicturesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F767101B5448BA00EF13D3 /* Lima PicturesTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,7 +77,7 @@
 		B4F767041B5448BA00EF13D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B4F7670A1B5448BA00EF13D3 /* Lima PicturesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lima PicturesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4F7670F1B5448BA00EF13D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B4F767101B5448BA00EF13D3 /* Nature_PortfolioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nature_PortfolioTests.swift; sourceTree = "<group>"; };
+		B4F767101B5448BA00EF13D3 /* Lima PicturesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lima PicturesTests.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				B464BA061B5698EA00C7559C /* Default-568h@2x.png */,
-				B4F766F71B5448BA00EF13D3 /* Nature Portfolio */,
-				B4F7670D1B5448BA00EF13D3 /* Nature PortfolioTests */,
+				B4F766F71B5448BA00EF13D3 /* Lima Pictures */,
+				B4F7670D1B5448BA00EF13D3 /* Lima PicturesTests */,
 				B4F766F61B5448BA00EF13D3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -117,7 +117,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B4F766F71B5448BA00EF13D3 /* Nature Portfolio */ = {
+		B4F766F71B5448BA00EF13D3 /* Lima Pictures */ = {
 			isa = PBXGroup;
 			children = (
 				B4F766FA1B5448BA00EF13D3 /* AppDelegate.swift */,
@@ -127,6 +127,7 @@
 				B4F767031B5448BA00EF13D3 /* LaunchScreen.xib */,
 				B4F766F81B5448BA00EF13D3 /* Supporting Files */,
 			);
+			name = "Lima Pictures";
 			path = "Nature Portfolio";
 			sourceTree = "<group>";
 		};
@@ -158,12 +159,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B4F7670D1B5448BA00EF13D3 /* Nature PortfolioTests */ = {
+		B4F7670D1B5448BA00EF13D3 /* Lima PicturesTests */ = {
 			isa = PBXGroup;
 			children = (
-				B4F767101B5448BA00EF13D3 /* Nature_PortfolioTests.swift */,
+				B4F767101B5448BA00EF13D3 /* Lima PicturesTests.swift */,
 				B4F7670E1B5448BA00EF13D3 /* Supporting Files */,
 			);
+			name = "Lima PicturesTests";
 			path = "Nature PortfolioTests";
 			sourceTree = "<group>";
 		};
@@ -305,7 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4F767111B5448BA00EF13D3 /* Nature_PortfolioTests.swift in Sources */,
+				B4F767111B5448BA00EF13D3 /* Lima PicturesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -502,7 +502,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="si7-ml-ha2">
                                 <rect key="frame" x="16" y="286" width="288" height="220"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Is one of the most famous Lima places, because is unique on Latinamerica. Upon its construction on July 2007 preserves 23 historic ornamental pools constructed on 1929 and more than 7000 trees. On 2009 obtained World Guiness Record as the world's largest water fountain complex in a public park.</string>
+                                <string key="text">One of the most famous Lima places, because is unique on Latinamerica. Upon its construction on July 2007 preserves 23 historic ornamental pools constructed on 1929 and more than 7000 trees. On 2009 obtained World Guiness Record as the world's largest water fountain complex in a public park.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
