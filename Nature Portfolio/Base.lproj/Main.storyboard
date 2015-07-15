@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
-        <!--Fotos-->
+        <!--Pictures-->
         <scene sceneID="N95-d9-jSk">
             <objects>
                 <tableViewController id="1Lk-9X-LfH" sceneMemberID="viewController">
@@ -224,7 +224,7 @@
                             <outlet property="delegate" destination="1Lk-9X-LfH" id="5T6-rZ-wz5"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Fotos" id="Mmp-8f-DZ5"/>
+                    <navigationItem key="navigationItem" title="Pictures" id="Mmp-8f-DZ5"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fh6-2m-7LL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -245,6 +245,21 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="huascar.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xPe-NL-u4d">
                                 <rect key="frame" x="0.0" y="64" width="320" height="214"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="https://www.google.com/maps/@-12.2338527,-76.9287841,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x0" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="e3g-8f-nHa">
+                                <rect key="frame" x="16" y="286" width="288" height="67"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.0" green="0.04996175169" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="rgg-tw-kt8">
+                                <rect key="frame" x="16" y="361" width="288" height="150"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">This park has the largest recreational lake in Perú, amphitheater for 800 people, nursery, organic garden, picnic area and other services. There are an area where users can camp overnight.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -293,6 +308,21 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="desamparados.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="kuY-kt-6ik">
                                 <rect key="frame" x="0.0" y="64" width="320" height="215"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="https://www.google.com.pe/maps/@-12.044161,-77.0285801,18z/data=!3m1!4b1!4m2!3m1!1s0x0:0x0" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="dXE-QL-D2C">
+                                <rect key="frame" x="16" y="287" width="288" height="67"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.0" green="0.04996175169" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="yEc-Pe-1A8">
+                                <rect key="frame" x="16" y="362" width="288" height="149"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Currently is hosting the Peruvian Literature House, and is operative as train travel tour to Huancayo, but only on February and July, tickets must be purchased months in advance, due to high demand. This building was built on 1912.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -461,12 +491,20 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circuito-magico-del-agua.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="gHc-DK-qza">
                                 <rect key="frame" x="0.0" y="64" width="320" height="155"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="http://maps.google.com enlace" translatesAutoresizingMaskIntoConstraints="NO" id="0BL-05-baX">
-                                <rect key="frame" x="16" y="227" width="288" height="128"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="https://www.google.com/maps/@-12.0712921,-77.03449,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x0" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="RgT-ml-C37">
+                                <rect key="frame" x="16" y="227" width="288" height="67"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.0" green="0.049961751686938172" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="si7-ml-ha2">
+                                <rect key="frame" x="16" y="286" width="288" height="220"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Is one of the most famous Lima places, because is unique on Latinamerica. Upon its construction on July 2007 preserves 23 historic ornamental pools constructed on 1929 and more than 7000 trees. On 2009 obtained World Guiness Record as the world's largest water fountain complex in a public park.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -477,7 +515,7 @@
             </objects>
             <point key="canvasLocation" x="1814" y="-1142"/>
         </scene>
-        <!--Home-->
+        <!--Intro-->
         <scene sceneID="gxH-vi-DY0">
             <objects>
                 <viewController id="gSM-FA-xAe" sceneMemberID="viewController">
@@ -490,17 +528,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" id="z2F-Pw-Qiq"/>
+                    <tabBarItem key="tabBarItem" title="Intro" id="z2F-Pw-Qiq"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="drt-JV-8dG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="735" y="-955"/>
         </scene>
-        <!--Galeria-->
+        <!--Gallery-->
         <scene sceneID="g9I-xI-pnV">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="EOB-k4-NxT" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Galeria" id="7FC-QA-S2Y"/>
+                    <tabBarItem key="tabBarItem" title="Gallery" id="7FC-QA-S2Y"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="uCq-wB-ivg">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>

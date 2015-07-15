@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B464BA071B5698EA00C7559C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B464BA061B5698EA00C7559C /* Default-568h@2x.png */; };
 		B4893F531B5569F4006F3D5A /* circuito-magico-del-agua.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4893F3F1B5569F4006F3D5A /* circuito-magico-del-agua.jpg */; };
 		B4893F541B5569F4006F3D5A /* circuito-magico-del-agua150.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4893F401B5569F4006F3D5A /* circuito-magico-del-agua150.jpg */; };
 		B4893F551B5569F4006F3D5A /* desamparados.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4893F411B5569F4006F3D5A /* desamparados.jpg */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B464BA061B5698EA00C7559C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B4893F3F1B5569F4006F3D5A /* circuito-magico-del-agua.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "circuito-magico-del-agua.jpg"; path = "../../../Desktop/circuito-magico-del-agua.jpg"; sourceTree = "<group>"; };
 		B4893F401B5569F4006F3D5A /* circuito-magico-del-agua150.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "circuito-magico-del-agua150.jpg"; path = "../../../Desktop/circuito-magico-del-agua150.jpg"; sourceTree = "<group>"; };
 		B4893F411B5569F4006F3D5A /* desamparados.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = desamparados.jpg; path = ../../../Desktop/desamparados.jpg; sourceTree = "<group>"; };
@@ -66,14 +68,14 @@
 		B4893F501B5569F4006F3D5A /* san-cristobal150.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "san-cristobal150.jpg"; path = "../../../Desktop/san-cristobal150.jpg"; sourceTree = "<group>"; };
 		B4893F511B5569F4006F3D5A /* san-isidro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "san-isidro.jpg"; path = "../../../Desktop/san-isidro.jpg"; sourceTree = "<group>"; };
 		B4893F521B5569F4006F3D5A /* san-isidro150.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "san-isidro150.jpg"; path = "../../../Desktop/san-isidro150.jpg"; sourceTree = "<group>"; };
-		B4F766F51B5448BA00EF13D3 /* Nature Portfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nature Portfolio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4F766F51B5448BA00EF13D3 /* Lima Pictures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lima Pictures.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4F766F91B5448BA00EF13D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4F766FA1B5448BA00EF13D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4F766FC1B5448BA00EF13D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B4F766FF1B5448BA00EF13D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B4F767011B5448BA00EF13D3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B4F767041B5448BA00EF13D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		B4F7670A1B5448BA00EF13D3 /* Nature PortfolioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nature PortfolioTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4F7670A1B5448BA00EF13D3 /* Lima PicturesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lima PicturesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4F7670F1B5448BA00EF13D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4F767101B5448BA00EF13D3 /* Nature_PortfolioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nature_PortfolioTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,6 +101,7 @@
 		B4F766EC1B5448BA00EF13D3 = {
 			isa = PBXGroup;
 			children = (
+				B464BA061B5698EA00C7559C /* Default-568h@2x.png */,
 				B4F766F71B5448BA00EF13D3 /* Nature Portfolio */,
 				B4F7670D1B5448BA00EF13D3 /* Nature PortfolioTests */,
 				B4F766F61B5448BA00EF13D3 /* Products */,
@@ -108,8 +111,8 @@
 		B4F766F61B5448BA00EF13D3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B4F766F51B5448BA00EF13D3 /* Nature Portfolio.app */,
-				B4F7670A1B5448BA00EF13D3 /* Nature PortfolioTests.xctest */,
+				B4F766F51B5448BA00EF13D3 /* Lima Pictures.app */,
+				B4F7670A1B5448BA00EF13D3 /* Lima PicturesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -175,9 +178,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B4F766F41B5448BA00EF13D3 /* Nature Portfolio */ = {
+		B4F766F41B5448BA00EF13D3 /* Lima Pictures */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B4F767141B5448BA00EF13D3 /* Build configuration list for PBXNativeTarget "Nature Portfolio" */;
+			buildConfigurationList = B4F767141B5448BA00EF13D3 /* Build configuration list for PBXNativeTarget "Lima Pictures" */;
 			buildPhases = (
 				B4F766F11B5448BA00EF13D3 /* Sources */,
 				B4F766F21B5448BA00EF13D3 /* Frameworks */,
@@ -187,14 +190,14 @@
 			);
 			dependencies = (
 			);
-			name = "Nature Portfolio";
+			name = "Lima Pictures";
 			productName = "Nature Portfolio";
-			productReference = B4F766F51B5448BA00EF13D3 /* Nature Portfolio.app */;
+			productReference = B4F766F51B5448BA00EF13D3 /* Lima Pictures.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B4F767091B5448BA00EF13D3 /* Nature PortfolioTests */ = {
+		B4F767091B5448BA00EF13D3 /* Lima PicturesTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B4F767171B5448BA00EF13D3 /* Build configuration list for PBXNativeTarget "Nature PortfolioTests" */;
+			buildConfigurationList = B4F767171B5448BA00EF13D3 /* Build configuration list for PBXNativeTarget "Lima PicturesTests" */;
 			buildPhases = (
 				B4F767061B5448BA00EF13D3 /* Sources */,
 				B4F767071B5448BA00EF13D3 /* Frameworks */,
@@ -205,9 +208,9 @@
 			dependencies = (
 				B4F7670C1B5448BA00EF13D3 /* PBXTargetDependency */,
 			);
-			name = "Nature PortfolioTests";
+			name = "Lima PicturesTests";
 			productName = "Nature PortfolioTests";
-			productReference = B4F7670A1B5448BA00EF13D3 /* Nature PortfolioTests.xctest */;
+			productReference = B4F7670A1B5448BA00EF13D3 /* Lima PicturesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -228,7 +231,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B4F766F01B5448BA00EF13D3 /* Build configuration list for PBXProject "Nature Portfolio" */;
+			buildConfigurationList = B4F766F01B5448BA00EF13D3 /* Build configuration list for PBXProject "Lima Pictures" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -241,8 +244,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B4F766F41B5448BA00EF13D3 /* Nature Portfolio */,
-				B4F767091B5448BA00EF13D3 /* Nature PortfolioTests */,
+				B4F766F41B5448BA00EF13D3 /* Lima Pictures */,
+				B4F767091B5448BA00EF13D3 /* Lima PicturesTests */,
 			);
 		};
 /* End PBXProject section */
@@ -257,6 +260,7 @@
 				B4893F571B5569F4006F3D5A /* huascar.jpg in Resources */,
 				B4893F551B5569F4006F3D5A /* desamparados.jpg in Resources */,
 				B4893F5E1B5569F4006F3D5A /* pantanos-de-villa150.jpg in Resources */,
+				B464BA071B5698EA00C7559C /* Default-568h@2x.png in Resources */,
 				B4893F651B5569F4006F3D5A /* san-isidro.jpg in Resources */,
 				B4893F5D1B5569F4006F3D5A /* pantanos-de-villa.jpg in Resources */,
 				B4893F5B1B5569F4006F3D5A /* museo-metropolitano-de-lima.jpg in Resources */,
@@ -310,7 +314,7 @@
 /* Begin PBXTargetDependency section */
 		B4F7670C1B5448BA00EF13D3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B4F766F41B5448BA00EF13D3 /* Nature Portfolio */;
+			target = B4F766F41B5448BA00EF13D3 /* Lima Pictures */;
 			targetProxy = B4F7670B1B5448BA00EF13D3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -422,7 +426,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Nature Portfolio/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Lima Pictures";
 			};
 			name = Debug;
 		};
@@ -432,7 +436,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Nature Portfolio/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Lima Pictures";
 			};
 			name = Release;
 		};
@@ -450,8 +454,8 @@
 				);
 				INFOPLIST_FILE = "Nature PortfolioTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nature Portfolio.app/Nature Portfolio";
+				PRODUCT_NAME = "Lima PicturesTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lima Pictures.app/Lima Pictures";
 			};
 			name = Debug;
 		};
@@ -465,15 +469,15 @@
 				);
 				INFOPLIST_FILE = "Nature PortfolioTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nature Portfolio.app/Nature Portfolio";
+				PRODUCT_NAME = "Lima PicturesTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lima Pictures.app/Lima Pictures";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B4F766F01B5448BA00EF13D3 /* Build configuration list for PBXProject "Nature Portfolio" */ = {
+		B4F766F01B5448BA00EF13D3 /* Build configuration list for PBXProject "Lima Pictures" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B4F767121B5448BA00EF13D3 /* Debug */,
@@ -482,7 +486,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B4F767141B5448BA00EF13D3 /* Build configuration list for PBXNativeTarget "Nature Portfolio" */ = {
+		B4F767141B5448BA00EF13D3 /* Build configuration list for PBXNativeTarget "Lima Pictures" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B4F767151B5448BA00EF13D3 /* Debug */,
@@ -491,7 +495,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B4F767171B5448BA00EF13D3 /* Build configuration list for PBXNativeTarget "Nature PortfolioTests" */ = {
+		B4F767171B5448BA00EF13D3 /* Build configuration list for PBXNativeTarget "Lima PicturesTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B4F767181B5448BA00EF13D3 /* Debug */,
