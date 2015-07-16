@@ -15,7 +15,27 @@
                         <sections>
                             <tableViewSection id="gLv-UH-vMw">
                                 <cells>
-                                    <tableViewCell tag="1" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Place1" textLabel="b6Y-T9-GV0" imageView="Cac-GL-XWN" style="IBUITableViewCellStyleDefault" id="Yms-7i-YUv">
+                                    <tableViewCell tag="1" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Place1" textLabel="RQR-S5-WOH" imageView="RZR-oH-Kq0" style="IBUITableViewCellStyleDefault" id="X36-oB-DCc">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="2" contentMode="center" tableViewCell="X36-oB-DCc" id="CUE-aJ-ZEQ">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Cerro San Cristobal" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RQR-S5-WOH">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="san-cristobal150.jpg" id="RZR-oH-Kq0">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="hjf-vD-E1K" kind="push" identifier="Detail9" id="0se-kr-IRZ"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell tag="1" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Place2" textLabel="b6Y-T9-GV0" imageView="Cac-GL-XWN" style="IBUITableViewCellStyleDefault" id="Yms-7i-YUv">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="2" contentMode="center" tableViewCell="Yms-7i-YUv" id="eht-rT-ZdB">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -33,10 +53,10 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="p9O-VB-jGo" kind="push" identifier="Detail1" id="nfz-in-SDR"/>
+                                            <segue destination="p9O-VB-jGo" kind="push" identifier="Detail2" id="nfz-in-SDR"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell tag="1" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Place2" textLabel="Yto-Dk-vDE" imageView="vKR-dP-Jtv" style="IBUITableViewCellStyleDefault" id="Lmi-SZ-0e1">
+                                    <tableViewCell tag="1" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Place3" textLabel="Yto-Dk-vDE" imageView="vKR-dP-Jtv" style="IBUITableViewCellStyleDefault" id="Lmi-SZ-0e1">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="2" contentMode="center" tableViewCell="Lmi-SZ-0e1" id="0Pl-6L-T0o">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -53,30 +73,30 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="Pee-Us-iak" kind="push" identifier="Detail2" id="vVs-PN-1hQ"/>
+                                            <segue destination="Pee-Us-iak" kind="push" identifier="Detail3" id="vVs-PN-1hQ"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell tag="1" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Place3" textLabel="4fU-qb-esl" imageView="6lQ-P6-7ww" style="IBUITableViewCellStyleDefault" id="lyJ-83-rb6">
+                                    <tableViewCell tag="1" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Place4" textLabel="W6M-cB-0ba" imageView="jNe-Cc-A2b" style="IBUITableViewCellStyleDefault" id="QDp-6k-rNJ">
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="2" contentMode="center" tableViewCell="lyJ-83-rb6" id="Zdf-uP-YpF">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="2" contentMode="center" tableViewCell="QDp-6k-rNJ" id="BUN-TB-G1g">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Parque Zonal Huascar" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4fU-qb-esl">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Estadio Nacional" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="W6M-cB-0ba">
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="huascar150.jpg" id="6lQ-P6-7ww">
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="estadio-nacional150.jpg" id="jNe-Cc-A2b">
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="XTn-hl-CPK" kind="push" identifier="Detail3" id="hU1-m6-etJ"/>
+                                            <segue destination="by2-Ke-l0d" kind="push" identifier="Detail1" id="lBX-u7-vfT"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell tag="1" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Place4" textLabel="orI-Qx-CsU" imageView="jzr-e0-Kxc" style="IBUITableViewCellStyleDefault" id="LeZ-u4-M2X">
+                                    <tableViewCell tag="1" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Place5" textLabel="orI-Qx-CsU" imageView="jzr-e0-Kxc" style="IBUITableViewCellStyleDefault" id="LeZ-u4-M2X">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="2" contentMode="center" tableViewCell="LeZ-u4-M2X" id="CUv-3N-pCr">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -93,27 +113,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="PHb-d3-lgl" kind="push" identifier="Detail4" id="jar-eb-Q77"/>
-                                        </connections>
-                                    </tableViewCell>
-                                    <tableViewCell tag="1" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Place5" textLabel="Eyp-AU-eLp" imageView="Cu6-vO-Etz" style="IBUITableViewCellStyleDefault" id="KGG-jF-V9m">
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="2" contentMode="center" tableViewCell="KGG-jF-V9m" id="UxQ-xI-kXd">
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Museo Metropolitano de Lima" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Eyp-AU-eLp">
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="museo-metropolitano-de-lima150.jpg" id="Cu6-vO-Etz">
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                </imageView>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="Csv-vo-3qs" kind="push" identifier="Detail5" id="X8H-Dn-kqh"/>
+                                            <segue destination="PHb-d3-lgl" kind="push" identifier="Detail8" id="jar-eb-Q77"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell tag="1" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Place6" textLabel="x72-0s-j17" imageView="fhp-0q-hN3" style="IBUITableViewCellStyleDefault" id="waE-5e-dY9">
@@ -133,27 +133,27 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="ZLk-XV-Q9h" kind="push" identifier="Detail6" id="eFx-gO-aqx"/>
+                                            <segue destination="ZLk-XV-Q9h" kind="push" identifier="Detail4" id="eFx-gO-aqx"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell tag="1" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Place7" textLabel="W6M-cB-0ba" imageView="jNe-Cc-A2b" style="IBUITableViewCellStyleDefault" id="QDp-6k-rNJ">
+                                    <tableViewCell tag="1" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Place7" textLabel="Eyp-AU-eLp" imageView="Cu6-vO-Etz" style="IBUITableViewCellStyleDefault" id="KGG-jF-V9m">
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="2" contentMode="center" tableViewCell="QDp-6k-rNJ" id="BUN-TB-G1g">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="2" contentMode="center" tableViewCell="KGG-jF-V9m" id="UxQ-xI-kXd">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Parque de la Reserva" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="W6M-cB-0ba">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Parque de la Exposición" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Eyp-AU-eLp">
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="parque-de-la-reserva150.jpg" id="jNe-Cc-A2b">
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="parque-de-la-exposicion150.jpg" id="Cu6-vO-Etz">
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="by2-Ke-l0d" kind="push" identifier="Detail7" id="lBX-u7-vfT"/>
+                                            <segue destination="Csv-vo-3qs" kind="push" identifier="Detail5" id="X8H-Dn-kqh"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell tag="1" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Place8" textLabel="J2k-nq-pEv" imageView="5O0-Kj-JJF" style="IBUITableViewCellStyleDefault" id="SiW-Ag-342">
@@ -173,27 +173,27 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="2qL-Uh-cI7" kind="push" identifier="Detail8" id="aJy-Wu-7yW"/>
+                                            <segue destination="2qL-Uh-cI7" kind="push" identifier="Detail6" id="aJy-Wu-7yW"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell tag="1" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Place9" textLabel="RQR-S5-WOH" imageView="RZR-oH-Kq0" style="IBUITableViewCellStyleDefault" id="X36-oB-DCc">
+                                    <tableViewCell tag="1" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Place9" textLabel="4fU-qb-esl" imageView="6lQ-P6-7ww" style="IBUITableViewCellStyleDefault" id="lyJ-83-rb6">
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="2" contentMode="center" tableViewCell="X36-oB-DCc" id="CUE-aJ-ZEQ">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="2" contentMode="center" tableViewCell="lyJ-83-rb6" id="Zdf-uP-YpF">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Cerro San Cristobal" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RQR-S5-WOH">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Parque Zonal Huascar" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4fU-qb-esl">
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="san-cristobal150.jpg" id="RZR-oH-Kq0">
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="huascar150.jpg" id="6lQ-P6-7ww">
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="hjf-vD-E1K" kind="push" identifier="Detail9" id="0se-kr-IRZ"/>
+                                            <segue destination="XTn-hl-CPK" kind="push" identifier="Detail7" id="hU1-m6-etJ"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell tag="1" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Place10" textLabel="AXP-JX-YzY" imageView="mMJ-Kf-AmA" style="IBUITableViewCellStyleDefault" id="fDc-CJ-rUV">
@@ -246,7 +246,7 @@
                                 <rect key="frame" x="0.0" y="64" width="320" height="214"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="https://www.google.com/maps/@-12.2338527,-76.9287841,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x0" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="e3g-8f-nHa">
-                                <rect key="frame" x="16" y="286" width="288" height="67"/>
+                                <rect key="frame" x="16" y="286" width="288" height="28"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="textColor" red="0.0" green="0.04996175169" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -254,7 +254,7 @@
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="rgg-tw-kt8">
-                                <rect key="frame" x="16" y="361" width="288" height="150"/>
+                                <rect key="frame" x="16" y="322" width="288" height="189"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">This park has the largest recreational lake in Perú, amphitheater for 800 people, nursery, organic garden, picnic area and other services. There are an area where users can camp overnight.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -267,9 +267,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ufS-ik-9dI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2640" y="-1142"/>
+            <point key="canvasLocation" x="2640" y="487"/>
         </scene>
-        <!--Museo Metropolitano de Lima-->
+        <!--Parque de la Exposición-->
         <scene sceneID="HE2-QY-n58">
             <objects>
                 <viewController id="Csv-vo-3qs" sceneMemberID="viewController">
@@ -281,17 +281,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="museo-metropolitano-de-lima.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="aD1-6q-Mca">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="parque-de-la-exposicion.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="aD1-6q-Mca">
                                 <rect key="frame" x="0.0" y="64" width="320" height="215"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="https://www.google.com.pe/maps/@-12.0636041,-77.0369615,17z/data=!4m2!3m1!1s0x0:0x0" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="JXj-IL-2Kw">
+                                <rect key="frame" x="16" y="287" width="288" height="28"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GW0-gK-89S">
+                                <rect key="frame" x="16" y="323" width="288" height="188"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Museo Metropolitano de Lima" id="qF7-Jl-sFu"/>
+                    <navigationItem key="navigationItem" title="Parque de la Exposición" id="qF7-Jl-sFu"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Del-9h-BGF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2224" y="-290"/>
+            <point key="canvasLocation" x="1814" y="487"/>
         </scene>
         <!--Estación Desamparados-->
         <scene sceneID="rb5-t3-oQ9">
@@ -309,7 +323,7 @@
                                 <rect key="frame" x="0.0" y="64" width="320" height="215"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="https://www.google.com.pe/maps/@-12.044161,-77.0285801,18z/data=!3m1!4b1!4m2!3m1!1s0x0:0x0" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="dXE-QL-D2C">
-                                <rect key="frame" x="16" y="287" width="288" height="67"/>
+                                <rect key="frame" x="16" y="287" width="288" height="28"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="textColor" red="0.0" green="0.04996175169" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -317,7 +331,7 @@
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="yEc-Pe-1A8">
-                                <rect key="frame" x="16" y="362" width="288" height="149"/>
+                                <rect key="frame" x="16" y="323" width="288" height="188"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Currently is hosting the Peruvian Literature House, and is operative as train travel tour to Huancayo, but only on February and July, tickets must be purchased months in advance, due to high demand. This building was built on 1912.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -330,7 +344,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i6l-XN-2aV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2224" y="-1142"/>
+            <point key="canvasLocation" x="2640" y="-1142"/>
         </scene>
         <!--Pantanos de Villa-->
         <scene sceneID="1d2-aE-YEp">
@@ -347,6 +361,20 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pantanos-de-villa.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="OKp-Ve-cGA">
                                 <rect key="frame" x="0.0" y="64" width="320" height="221"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="https://www.google.com.pe/maps/@-12.2179762,-76.9856106,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x0" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="L6Z-wB-v4A">
+                                <rect key="frame" x="40" y="293" width="240" height="28"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4IF-k6-3MW">
+                                <rect key="frame" x="16" y="329" width="288" height="182"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Is a wildlife refuge for hundreds of migratory and resident birds, is a set of natural wetlands with abundance of flora and fauna. Its more than 20 Km2. Most of the species are observed when they arrive from cold north land, from december to march. More than 3Km2 are permanently fooded all the year.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -371,6 +399,21 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="san-isidro.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="yQY-3b-wMl">
                                 <rect key="frame" x="0.0" y="64" width="320" height="215"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="https://www.google.com.pe/maps/@-12.0977408,-77.0157837,18z/data=!3m1!4b1!4m2!3m1!1s0x0:0x0" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Ygz-uf-sM2">
+                                <rect key="frame" x="16" y="287" width="288" height="28"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Mq-dd-h2f">
+                                <rect key="frame" x="16" y="323" width="288" height="200"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">The highest building in picture corresponds to the actual Peruvian Police Institution, previously built for the former Limatambo Airport in 1935. In 1961 the Police Insitution moved to its actual location and in 1968 the "Ministerio del Interior" Gobernment organism was created. San Isidro is the buisness district, it has most of the international buisiness offices and Banks around the world as well.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -380,7 +423,7 @@
             </objects>
             <point key="canvasLocation" x="2224" y="1163"/>
         </scene>
-        <!--Parque de la Reserva-->
+        <!--Estadio Nacional-->
         <scene sceneID="Gwf-tK-paH">
             <objects>
                 <viewController id="by2-Ke-l0d" sceneMemberID="viewController">
@@ -392,17 +435,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="parque-de-la-reserva.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="7U9-g4-5yv">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="estadio-nacional.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="7U9-g4-5yv">
                                 <rect key="frame" x="0.0" y="64" width="320" height="215"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="https://www.google.com.pe/maps/@-12.0671612,-77.0335799,18z/data=!3m1!4b1!4m2!3m1!1s0x0:0x0" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="f4B-Sg-FoG">
+                                <rect key="frame" x="16" y="287" width="288" height="28"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="Kf3-5F-Cdy">
+                                <rect key="frame" x="16" y="323" width="288" height="188"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">The original building was built on 1897 and was a wooden structure as a gift to Perú from England. Later on 1952, the actual structure was built in record time of 1 year. The new actual look was finished on 2011, several renovations were made in the vicinity.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Parque de la Reserva" id="rRn-Fn-Upy"/>
+                    <navigationItem key="navigationItem" title="Estadio Nacional" id="rRn-Fn-Upy"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fWI-OA-Po8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1814" y="487"/>
+            <point key="canvasLocation" x="1814" y="-290"/>
         </scene>
         <!--Cerro San Cristobal-->
         <scene sceneID="Ozs-B9-60V">
@@ -419,6 +476,20 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="san-cristobal.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="VgD-4h-vUF">
                                 <rect key="frame" x="0.0" y="64" width="320" height="216"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="https://www.google.com.pe/maps/@-12.035407,-77.0182855,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x0" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="dBh-8B-LME">
+                                <rect key="frame" x="16" y="288" width="288" height="28"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="nrI-DF-Qtf">
+                                <rect key="frame" x="16" y="324" width="288" height="187"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Is the highest mountain and the nearest to the center of the city, and is used as viewpoint of the city. Considered as a divine entity by Incas, was conquered by Francisco Pizarro on 1536 and founded " The City of the Kings". Its 400 meters about sea level and its white cross is 20 meters tall.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -426,7 +497,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Da-lX-tVw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2640" y="487"/>
+            <point key="canvasLocation" x="1814" y="-1142"/>
         </scene>
         <!--Lomas de Lachay-->
         <scene sceneID="lGX-Ms-xAS">
@@ -443,6 +514,20 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lomas-de-lachay.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="bJA-gh-Tec">
                                 <rect key="frame" x="0.0" y="64" width="320" height="217"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="https://www.google.com.pe/maps/@-11.3804192,-77.3620325,13z/data=!4m2!3m1!1s0x0:0x0" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wvd-uR-REq">
+                                <rect key="frame" x="16" y="289" width="288" height="28"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="G2e-op-0xg">
+                                <rect key="frame" x="16" y="325" width="288" height="186"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Is one of the Natural Reserve's nearest to Lima only 105 Km north and is more than 50Km2. Is a unique ecosystem because of its extreme humidity on winter and its extreme dryness on summer, giving visitors two different views on two different seasons, there are areas with chairs, tables and grills, and camping zones where visitors can camp overnight.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -450,7 +535,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tat-at-lD0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1814" y="-290"/>
+            <point key="canvasLocation" x="2224" y="-290"/>
         </scene>
         <!--Parque de las Leyendas-->
         <scene sceneID="cib-dU-DvK">
@@ -467,6 +552,20 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="parque-de-las-leyendas.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="esI-JZ-Sf2">
                                 <rect key="frame" x="0.0" y="64" width="320" height="214"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="https://www.google.com.pe/maps/@-12.0681135,-77.0879523,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x0" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="auS-Vb-Y8q">
+                                <rect key="frame" x="16" y="286" width="288" height="28"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="6GH-tg-7ZO">
+                                <rect key="frame" x="16" y="322" width="288" height="197"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Founded as the first zoo in Per'u on 1964, has a Botanic Garden, a museum and ancient ruins visit guided, there are 4 zones: Coast: with 118 mamals, 33 birds and 4 reptiles, Mountains: with 118 mamals, and 93 birds, Jungle and International.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -492,7 +591,7 @@
                                 <rect key="frame" x="0.0" y="64" width="320" height="155"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="https://www.google.com/maps/@-12.0712921,-77.03449,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x0" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="RgT-ml-C37">
-                                <rect key="frame" x="16" y="227" width="288" height="67"/>
+                                <rect key="frame" x="16" y="227" width="288" height="28"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="textColor" red="0.0" green="0.049961751686938172" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -500,7 +599,7 @@
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="si7-ml-ha2">
-                                <rect key="frame" x="16" y="286" width="288" height="220"/>
+                                <rect key="frame" x="16" y="263" width="288" height="243"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">One of the most famous Lima places, because is unique on Latinamerica. Upon its construction on July 2007 preserves 23 historic ornamental pools constructed on 1929 and more than 7000 trees. On 2009 obtained World Guiness Record as the world's largest water fountain complex in a public park.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -513,7 +612,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dd0-kB-EoW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1814" y="-1142"/>
+            <point key="canvasLocation" x="2224" y="-1142"/>
         </scene>
         <!--Intro-->
         <scene sceneID="gxH-vi-DY0">
@@ -526,6 +625,21 @@
                     <view key="view" contentMode="scaleToFill" id="gha-Df-f3y">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="ga7-Js-tQL">
+                                <rect key="frame" x="16" y="94" width="288" height="425"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">For those as me, born and rised on Lima - Perú this is my 2 cents to share the beauty of moder Peruvian Capital. Is near to celebrate its 200 years of independence and is setting up each and every corner to receive tourists all around the world. I promess I'll add more pictures and more locations by request, so if you are interested in one specific place, do not hesitate and write me a line to joe@colldev.com and I'll be glad to make growth this collection.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="My beloved City" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hcK-Y7-uxR">
+                                <rect key="frame" x="16" y="20" width="288" height="57"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Intro" id="z2F-Pw-Qiq"/>
@@ -578,16 +692,16 @@
         <image name="circuito-magico-del-agua150.jpg" width="225" height="150"/>
         <image name="desamparados.jpg" width="800" height="533"/>
         <image name="desamparados150.jpg" width="225" height="150"/>
+        <image name="estadio-nacional.jpg" width="800" height="533"/>
+        <image name="estadio-nacional150.jpg" width="225" height="150"/>
         <image name="huascar.jpg" width="800" height="533"/>
         <image name="huascar150.jpg" width="225" height="150"/>
         <image name="lomas-de-lachay.jpg" width="800" height="533"/>
         <image name="lomas-de-lachay150.jpg" width="225" height="150"/>
-        <image name="museo-metropolitano-de-lima.jpg" width="800" height="533"/>
-        <image name="museo-metropolitano-de-lima150.jpg" width="225" height="150"/>
         <image name="pantanos-de-villa.jpg" width="800" height="533"/>
         <image name="pantanos-de-villa150.jpg" width="225" height="150"/>
-        <image name="parque-de-la-reserva.jpg" width="800" height="533"/>
-        <image name="parque-de-la-reserva150.jpg" width="225" height="150"/>
+        <image name="parque-de-la-exposicion.jpg" width="800" height="533"/>
+        <image name="parque-de-la-exposicion150.jpg" width="225" height="150"/>
         <image name="parque-de-las-leyendas.jpg" width="800" height="533"/>
         <image name="parque-de-las-leyendas150.jpg" width="225" height="150"/>
         <image name="san-cristobal.jpg" width="800" height="533"/>
