@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3FCAF843-988B-419A-8202-FE9EFC47E915</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Lima Pictures</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D708B16E34601674C97359C096DB47DB5932B9DA</key>
+		<string>github.com:JoeRobles/LimaPictures.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Lima Pictures.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D708B16E34601674C97359C096DB47DB5932B9DA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:JoeRobles/LimaPictures.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D708B16E34601674C97359C096DB47DB5932B9DA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D708B16E34601674C97359C096DB47DB5932B9DA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Lima%20Pictures</string>
+		</dict>
+	</array>
+</dict>
+</plist>

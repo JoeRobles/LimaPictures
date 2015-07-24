@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
-        <!--Pictures-->
+        <!--Gallery-->
         <scene sceneID="N95-d9-jSk">
             <objects>
                 <tableViewController id="1Lk-9X-LfH" sceneMemberID="viewController">
@@ -224,7 +224,7 @@
                             <outlet property="delegate" destination="1Lk-9X-LfH" id="5T6-rZ-wz5"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Pictures" id="Mmp-8f-DZ5"/>
+                    <navigationItem key="navigationItem" title="Gallery" id="Mmp-8f-DZ5"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fh6-2m-7LL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -294,7 +294,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GW0-gK-89S">
                                 <rect key="frame" x="16" y="323" width="288" height="188"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -629,11 +629,11 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="ga7-Js-tQL">
                                 <rect key="frame" x="16" y="94" width="288" height="425"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">For those as me, born and rised on Lima - Perú this is my 2 cents to share the beauty of moder Peruvian Capital. Is near to celebrate its 200 years of independence and is setting up each and every corner to receive tourists all around the world. I promess I'll add more pictures and more locations by request, so if you are interested in one specific place, do not hesitate and write me a line to joe@colldev.com and I'll be glad to make growth this collection.</string>
+                                <string key="text">For those like me, born and rised on Lima - Perú this is my 2 cents to share the beauty of modern Peruvian Capital. Is close to celebrate its 200 years of independence and is setting up each and every corner to receive tourists all around the world. I promess I'll add more pictures and more locations by request, so if you are interested in one specific place, do not hesitate and write me a line to joe@colldev.com and I'll be glad to make growth this collection.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="My beloved City" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hcK-Y7-uxR">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="My beloved city" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hcK-Y7-uxR">
                                 <rect key="frame" x="16" y="20" width="288" height="57"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -642,7 +642,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Intro" id="z2F-Pw-Qiq"/>
+                    <tabBarItem key="tabBarItem" title="Intro" image="first.png" id="z2F-Pw-Qiq"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="drt-JV-8dG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -652,7 +652,7 @@
         <scene sceneID="g9I-xI-pnV">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="EOB-k4-NxT" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Gallery" id="7FC-QA-S2Y"/>
+                    <tabBarItem key="tabBarItem" title="Gallery" image="second.png" id="7FC-QA-S2Y"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="uCq-wB-ivg">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -694,6 +694,7 @@
         <image name="desamparados150.jpg" width="225" height="150"/>
         <image name="estadio-nacional.jpg" width="800" height="533"/>
         <image name="estadio-nacional150.jpg" width="225" height="150"/>
+        <image name="first.png" width="34" height="32"/>
         <image name="huascar.jpg" width="800" height="533"/>
         <image name="huascar150.jpg" width="225" height="150"/>
         <image name="lomas-de-lachay.jpg" width="800" height="533"/>
@@ -708,6 +709,7 @@
         <image name="san-cristobal150.jpg" width="225" height="150"/>
         <image name="san-isidro.jpg" width="800" height="533"/>
         <image name="san-isidro150.jpg" width="225" height="150"/>
+        <image name="second.png" width="32" height="32"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

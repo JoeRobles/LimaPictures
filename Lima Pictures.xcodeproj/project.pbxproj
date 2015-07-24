@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -29,8 +29,8 @@
 		B4C54A121B56ACB7005B1AFB /* estadio-nacional150.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4C54A101B56ACB7005B1AFB /* estadio-nacional150.jpg */; };
 		B4C54A151B56B271005B1AFB /* parque-de-la-exposicion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4C54A131B56B271005B1AFB /* parque-de-la-exposicion.jpg */; };
 		B4C54A161B56B271005B1AFB /* parque-de-la-exposicion150.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4C54A141B56B271005B1AFB /* parque-de-la-exposicion150.jpg */; };
-		B4C54A191B56F4AF005B1AFB /* gallery.png in Resources */ = {isa = PBXBuildFile; fileRef = B4C54A171B56F4AF005B1AFB /* gallery.png */; };
-		B4C54A1A1B56F4AF005B1AFB /* intro.png in Resources */ = {isa = PBXBuildFile; fileRef = B4C54A181B56F4AF005B1AFB /* intro.png */; };
+		B4CBCABB1B6285FA00CBD39C /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = B4CBCAB91B6285FA00CBD39C /* second.png */; };
+		B4CBCABC1B6285FA00CBD39C /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = B4CBCABA1B6285FA00CBD39C /* first.png */; };
 		B4F766FB1B5448BA00EF13D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F766FA1B5448BA00EF13D3 /* AppDelegate.swift */; };
 		B4F766FD1B5448BA00EF13D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F766FC1B5448BA00EF13D3 /* ViewController.swift */; };
 		B4F767001B5448BA00EF13D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4F766FE1B5448BA00EF13D3 /* Main.storyboard */; };
@@ -72,8 +72,8 @@
 		B4C54A101B56ACB7005B1AFB /* estadio-nacional150.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "estadio-nacional150.jpg"; path = "../../../Desktop/estadio-nacional150.jpg"; sourceTree = "<group>"; };
 		B4C54A131B56B271005B1AFB /* parque-de-la-exposicion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "parque-de-la-exposicion.jpg"; path = "../../../Desktop/parque-de-la-exposicion.jpg"; sourceTree = "<group>"; };
 		B4C54A141B56B271005B1AFB /* parque-de-la-exposicion150.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "parque-de-la-exposicion150.jpg"; path = "../../../Desktop/parque-de-la-exposicion150.jpg"; sourceTree = "<group>"; };
-		B4C54A171B56F4AF005B1AFB /* gallery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gallery.png; path = ../../../Desktop/gallery.png; sourceTree = "<group>"; };
-		B4C54A181B56F4AF005B1AFB /* intro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = intro.png; path = ../../../Desktop/intro.png; sourceTree = "<group>"; };
+		B4CBCAB91B6285FA00CBD39C /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = second.png; path = ../../../Desktop/second.png; sourceTree = "<group>"; };
+		B4CBCABA1B6285FA00CBD39C /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = first.png; path = ../../../Desktop/first.png; sourceTree = "<group>"; };
 		B4F766F51B5448BA00EF13D3 /* Lima Pictures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lima Pictures.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4F766F91B5448BA00EF13D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4F766FA1B5448BA00EF13D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -140,29 +140,29 @@
 		B4F766F81B5448BA00EF13D3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B41866B61B571D4400309536 /* icon187.jpg */,
-				B4C54A131B56B271005B1AFB /* parque-de-la-exposicion.jpg */,
-				B4C54A141B56B271005B1AFB /* parque-de-la-exposicion150.jpg */,
-				B4C54A0F1B56ACB7005B1AFB /* estadio-nacional.jpg */,
-				B4C54A101B56ACB7005B1AFB /* estadio-nacional150.jpg */,
 				B4893F3F1B5569F4006F3D5A /* circuito-magico-del-agua.jpg */,
 				B4893F401B5569F4006F3D5A /* circuito-magico-del-agua150.jpg */,
 				B4893F411B5569F4006F3D5A /* desamparados.jpg */,
 				B4893F421B5569F4006F3D5A /* desamparados150.jpg */,
+				B4C54A0F1B56ACB7005B1AFB /* estadio-nacional.jpg */,
+				B4C54A101B56ACB7005B1AFB /* estadio-nacional150.jpg */,
 				B4893F431B5569F4006F3D5A /* huascar.jpg */,
 				B4893F441B5569F4006F3D5A /* huascar150.jpg */,
+				B41866B61B571D4400309536 /* icon187.jpg */,
 				B4893F451B5569F4006F3D5A /* lomas-de-lachay.jpg */,
 				B4893F461B5569F4006F3D5A /* lomas-de-lachay150.jpg */,
 				B4893F491B5569F4006F3D5A /* pantanos-de-villa.jpg */,
 				B4893F4A1B5569F4006F3D5A /* pantanos-de-villa150.jpg */,
+				B4C54A131B56B271005B1AFB /* parque-de-la-exposicion.jpg */,
+				B4C54A141B56B271005B1AFB /* parque-de-la-exposicion150.jpg */,
 				B4893F4D1B5569F4006F3D5A /* parque-de-las-leyendas.jpg */,
 				B4893F4E1B5569F4006F3D5A /* parque-de-las-leyendas150.jpg */,
 				B4893F4F1B5569F4006F3D5A /* san-cristobal.jpg */,
-				B4C54A171B56F4AF005B1AFB /* gallery.png */,
-				B4C54A181B56F4AF005B1AFB /* intro.png */,
 				B4893F501B5569F4006F3D5A /* san-cristobal150.jpg */,
 				B4893F511B5569F4006F3D5A /* san-isidro.jpg */,
 				B4893F521B5569F4006F3D5A /* san-isidro150.jpg */,
+				B4CBCAB91B6285FA00CBD39C /* second.png */,
+				B4CBCABA1B6285FA00CBD39C /* first.png */,
 				B4F766F91B5448BA00EF13D3 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -235,6 +235,7 @@
 				TargetAttributes = {
 					B4F766F41B5448BA00EF13D3 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = J9Y6F74RB8;
 					};
 					B4F767091B5448BA00EF13D3 = {
 						CreatedOnToolsVersion = 6.4;
@@ -243,7 +244,7 @@
 				};
 			};
 			buildConfigurationList = B4F766F01B5448BA00EF13D3 /* Build configuration list for PBXProject "Lima Pictures" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -273,7 +274,6 @@
 				B4893F571B5569F4006F3D5A /* huascar.jpg in Resources */,
 				B4893F551B5569F4006F3D5A /* desamparados.jpg in Resources */,
 				B4893F5E1B5569F4006F3D5A /* pantanos-de-villa150.jpg in Resources */,
-				B4C54A191B56F4AF005B1AFB /* gallery.png in Resources */,
 				B464BA071B5698EA00C7559C /* Default-568h@2x.png in Resources */,
 				B4893F651B5569F4006F3D5A /* san-isidro.jpg in Resources */,
 				B4893F5D1B5569F4006F3D5A /* pantanos-de-villa.jpg in Resources */,
@@ -282,6 +282,7 @@
 				B4893F621B5569F4006F3D5A /* parque-de-las-leyendas150.jpg in Resources */,
 				B4893F541B5569F4006F3D5A /* circuito-magico-del-agua150.jpg in Resources */,
 				B4893F5A1B5569F4006F3D5A /* lomas-de-lachay150.jpg in Resources */,
+				B4CBCABC1B6285FA00CBD39C /* first.png in Resources */,
 				B4893F641B5569F4006F3D5A /* san-cristobal150.jpg in Resources */,
 				B4893F631B5569F4006F3D5A /* san-cristobal.jpg in Resources */,
 				B4F767051B5448BA00EF13D3 /* LaunchScreen.xib in Resources */,
@@ -290,8 +291,8 @@
 				B4893F591B5569F4006F3D5A /* lomas-de-lachay.jpg in Resources */,
 				B4893F531B5569F4006F3D5A /* circuito-magico-del-agua.jpg in Resources */,
 				B4893F611B5569F4006F3D5A /* parque-de-las-leyendas.jpg in Resources */,
+				B4CBCABB1B6285FA00CBD39C /* second.png in Resources */,
 				B4893F581B5569F4006F3D5A /* huascar150.jpg in Resources */,
-				B4C54A1A1B56F4AF005B1AFB /* intro.png in Resources */,
 				B4C54A121B56ACB7005B1AFB /* estadio-nacional150.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,7 +439,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Nature Portfolio/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "Lima Pictures";
 			};
@@ -448,7 +452,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Nature Portfolio/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "Lima Pictures";
 			};
