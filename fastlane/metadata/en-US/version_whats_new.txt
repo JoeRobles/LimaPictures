@@ -1,3 +1,0 @@
-added AppIcon
-added navigation icons
-added splash screen

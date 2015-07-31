@@ -15,7 +15,7 @@ ipa "../Lima\ Pictures.ipa"
 # beta_ipa "./app.ipa"
 
 # The version of your app - remove this if you provide an ipa file
-version "1.1"
+# version "1.1"
 
 ###################### More Options ######################
 # If you want to have even more control, check out the documentation
@@ -31,10 +31,12 @@ email "kbsamaha@gmail.com" # the login email address
 
 app_icon '../AppIcon.png'
 copyright "#{Time.now.year} CollDev"
-primary_category 'Photo % Video'
+primary_category 'Photo & Video'
 app_review_information(
   first_name: "Khaled",
   last_name: "Samaha",
   phone_number: "408-821-5013",
   email_address: "kbsamaha@gmail.com"
 )
+automatic_release true
+ratings_config_path "./ratings_config.json"

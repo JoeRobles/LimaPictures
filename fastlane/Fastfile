@@ -54,10 +54,21 @@ platform :ios do
   desc "Deploy a new version to the App Store"
   desc "** Full Markdown** Support: `code`"
   lane :deploy do
-    snapshot
+    cert
     sigh
-    deliver(skip_deploy: true, force: true)
-    # frameit
+#    snapshot
+#    frameit
+    ipa({
+      identity: "iPhone Distribution: Khaled Samaha (J9Y6F74RB8)"
+    })
+    sigh resign({
+      ipa: "../Lima\ Pictures.ipa",
+      identity: "iPhone Distribution: Khaled Samaha (J9Y6F74RB8)"
+    })
+    deliver({
+      skip_deploy: true,
+      force: true
+    })
   end
 
   # You can define as many lanes as you want

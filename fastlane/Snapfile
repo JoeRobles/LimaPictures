@@ -23,6 +23,8 @@ screenshots_path "./screenshots"
 # The name of the project's scheme
 # scheme 'SchemeName'
 
+clear_previous_screenshots
+
 # Where is your project (or workspace)? Provide the full path here
 # project_path './YourProject.xcworkspace'
 
